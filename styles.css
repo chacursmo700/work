@@ -1,0 +1,8 @@
+html {
+	box-sizing: border-box;
+}
+
+.main {
+	width: 800;
+	box-shadow: 5px 5px 5px black;
+}
