@@ -1,0 +1,57 @@
+html {
+	box-sizing: border-box;
+	background-color: gray;
+}
+.big-container {
+	display: flex;
+	flex-direction: column;
+	width: 900px;
+	box-shadow: 3px 3px 3px black;
+	margin: auto;
+	border-radius: 10px;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.banner {
+	width: 900px;
+	height: 200px;
+}
+
+.menu {
+	width: 200px;
+}
+
+
+.main {
+	width: 500px;
+}
+
+.ticker {
+}
+
+ul {
+	list-style-type: disc;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
+
+}
+
+li {
+}
+
+li a {
+	color: white;
+	text-align: center;
+	padding: 0px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111111;
+}
