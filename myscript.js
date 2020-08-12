@@ -20,7 +20,17 @@ window.onload = function(){
 		foo.innerHTML = myStr;
 		*/
 		var myObj = JSON.parse(result);
-		var twoObj =myObj['Time Series (Digital Currency Daily)']['2020-08-11'];
+		var d = new Date();
+		var year = d.getFullYear() ;
+		var month = d.getMonth() + 1;
+		var day = d.getDate() - 1;
+		if (month < 10) {
+			month = "0"+month;
+		}
+		var dDay = String(year)+"-"+String(month)+"-"+String(day);
+		//console.log(d);
+		//console.log(dDay);
+		var twoObj =myObj['Time Series (Digital Currency Daily)'][dDay];
 		var open = twoObj["1a. open (USD)"];
 		var close = twoObj["4a. close (USD)"];
 		
