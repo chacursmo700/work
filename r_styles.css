@@ -1,0 +1,16 @@
+html {
+	box-sizing: border-box;
+}
+
+.exper {
+	position: relative;
+	font-family: mono;
+}
+
+.skills {
+	position: relative;
+}
+
+h1 {
+	font-family: 'Rowdies', cursive;
+}
