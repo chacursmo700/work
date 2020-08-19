@@ -5,12 +5,35 @@ html {
 .exper {
 	position: relative;
 	font-family: mono;
+	background-color: #34deeb;
+	z-index: -2;
 }
 
 .skills {
-	position: relative;
+	position: absolute;
+	z-index: 2;
+	right: 100px;
+	top: 100px;
+	height: 600px;
+	font-family: mono;
+	background-color: rgba(201, 76, 76, 0.4);
+
+}
+
+.right {
+	position: absolute;
+	width: 300px;
+	right: 0px;
+	top: 0px;
+	height: 1000px;
+	background-color: #ebde34;
+	z-index: -1;
 }
 
 h1 {
 	font-family: 'Rowdies', cursive;
+	background-color: #34eb71;
+	z-index: -5;
+	width: 600px;
+	height: 100px;
 }

@@ -25,7 +25,7 @@ var employmentList =
 window.onload = function(){
 
 	var foo = document.getElementById("jobs");
-	var text = "";
+	var text = foo.innerHTML;
 	for (const [key,value] of Object.entries(employmentList)){
 		text = text + '<br>' + key + ": " + value;
 	}
